@@ -1,6 +1,6 @@
 # coppelia_remote_pc
 
-This package its a python Remote API to put inside of CoppeliaSim (Vrep) a PointCloud in real time.
+This repository contains ROS nodes necessary to implement a python Remote API witch put inside of CoppeliaSim (Vrep) a PointCloud in real time.
 
 ![pc_coppelia2](https://user-images.githubusercontent.com/51409770/98450615-c4d49880-211c-11eb-8350-472be2d333bf.jpeg)
 
