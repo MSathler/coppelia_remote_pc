@@ -3,7 +3,7 @@
 This package its a python Remote API to put inside of CoppeliaSim (Vrep) a PointCloud in real time.
 
 ## Lua Code
-First you need to include the lua code into a coppelia object, my sugestion its a dummy and put inside the script this code:
+First you need to include the lua code into a coppelia object, my suggestion its a dummy and put the following script into the Coppelia code (Dummy)
 
 
 ```
