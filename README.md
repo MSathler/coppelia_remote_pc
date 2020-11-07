@@ -2,6 +2,8 @@
 
 This package its a python Remote API to put inside of CoppeliaSim (Vrep) a PointCloud in real time.
 
+![pc_coppelia2](https://user-images.githubusercontent.com/51409770/98450615-c4d49880-211c-11eb-8350-472be2d333bf.jpeg)
+
 ## Lua Code
 First you need to include the lua code into a coppelia object, my suggestion its a dummy and put the following script into the Coppelia code (Dummy)
 
@@ -58,6 +60,5 @@ Edit `scripts/pc_coppelia.py:31` to define the coppelia function name into objec
 
 Edit `scripts/pc_coppelia.py:41` to define the published topic name. Default: `/plume/particles`. 
 
-![pc_coppelia2](https://user-images.githubusercontent.com/51409770/98450615-c4d49880-211c-11eb-8350-472be2d333bf.jpeg)
 
 ![coppelia_pc](https://user-images.githubusercontent.com/51409770/98450619-ca31e300-211c-11eb-9efe-8de639a0dd30.png)
