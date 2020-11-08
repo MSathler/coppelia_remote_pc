@@ -21,9 +21,9 @@ This repository contains ROS nodes necessary to implement a python Remote API wi
 
 		$ coppelia
 		
-- 4 - Clone this repository:
+- 4 - Clone this repository inside your catkin workspace:
 
-		$ https://github.com/MSathler/coppelia_remote_pc.git
+		$ cd ~/catkin_ws/src && git clone https://github.com/MSathler/coppelia_remote_pc.git
 		
 - 5 - Build the workspace:
 
