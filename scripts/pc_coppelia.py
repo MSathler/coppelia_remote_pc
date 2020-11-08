@@ -23,7 +23,7 @@ def callback(msg):
 
         pc.append(msg.points[i].x)
         pc.append(msg.points[i].y)
-        pc.append((msg.points[i].z+40))
+        pc.append((msg.points[i].z)) #pc.append((msg.points[i].z+40))
 
     emptyBuff = bytearray()
     t = [1,2,3]
