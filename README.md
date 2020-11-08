@@ -20,6 +20,15 @@ This repository contains ROS nodes necessary to implement a python Remote API wi
 - 3 - Test if the program is working on terminal by:
 
 		$ coppelia
+		
+- 4 - Clone this repository:
+		$ https://github.com/MSathler/coppelia_remote_pc.git
+		
+- 5 - Build the workspace:
+		$ cd ~/catkin_ws/src && catkin build 
+		or 
+		$ cd ~/catkin_ws/src && catkin_make
+
 ## Simulation Configuration
 
 - 1 - Open CoppeliaSim.
@@ -81,5 +90,10 @@ Edit `scripts/pc_coppelia.py:31` to define the coppelia function name into objec
 
 Edit `scripts/pc_coppelia.py:41` to define the published topic name. Default: `/plume/particles`. 
 
+## How to run
 
+After Point Cloud publication starts the simulation and then:
+
+		$ rosrun coppeliasim_remote_pc pc_coppelia.py
+		
 ![coppelia_pc](https://user-images.githubusercontent.com/51409770/98450619-ca31e300-211c-11eb-9efe-8de639a0dd30.png)
