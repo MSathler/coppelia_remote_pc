@@ -58,10 +58,7 @@ function sysCall_init()
 end
 
 function sysCall_actuation()
-    --sim.removePointsFromPointCloud(point_cloud,0,nullprt)
-    --sub =simROS.subscribe('/plume/particles','sensor_msgs/PointCloud','callback_PointCloud')
-    --sim.removePointsFromPointCloud(point_cloud,1,points,0.1)
-    --print("1")
+    
 end
 
 function sysCall_sensing()
@@ -70,7 +67,7 @@ end
 
 function sysCall_cleanup()
     -- do some clean-up here
-    --sim.removePointsFromPointCloud(point_cloud,0,nullprt)
+    
 end
 
 -- See the user manual or the available code snippets for additional callback functions and details
