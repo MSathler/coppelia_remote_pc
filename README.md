@@ -29,7 +29,7 @@ This repository contains ROS nodes necessary to implement a python Remote API wi
 
 		$ cd ~/catkin_ws/src && catkin build 
 
-or 
+	or 
 
 		$ cd ~/catkin_ws/src && catkin_make
 
