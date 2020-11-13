@@ -39,11 +39,15 @@ This repository contains ROS nodes necessary to implement a python Remote API wi
 
 - 2 - On the top tab select Add then Dummy.
 
-- 3 - In the scene hierarchy press the right button on Dummy and select `Add/Associeted child script/Non threaded`.
+- 3 - Change this dummy name to World_link.
 
-- 4 - Double click on the white paper beside Dummy in scene hierarchy.
+- 4 - Create another dummy object.
 
-- 5 - Replace the present code with the following:
+- 5 - In the scene hierarchy press the right button on Dummy and select `Add/Associeted child script/Non threaded`.
+
+- 6 - Double click on the white paper beside Dummy in scene hierarchy.
+
+- 7 - Replace the present code with the following:
 
 ```
 function __getObjectPosition__(a,b)
