@@ -4,6 +4,9 @@ import rospy
 from sensor_msgs.msg import PointCloud
 import time
 
+__author__ = 'Mauricio Sathler'
+__license__ = 'MIT'
+
 #definicoes iniciais
 serverIP = '127.0.0.1'
 serverPort = 19999
