@@ -38,8 +38,9 @@ def teste():
 
 	while not rospy.is_shutdown():
 
-	    	rospy.Subscriber("/plume/particles", PointCloud, callback)
-	    	rospy.spin()
+	    	rospy.Subscriber("/point_pompy", PointCloud, callback)
+	    	rospy.Rate(1).sleep()
+            #rospy.spin()
 
 
 if __name__ == '__main__':
